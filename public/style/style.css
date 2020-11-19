@@ -1,0 +1,10 @@
+:root {
+  --color2: #2272a2;
+}
+
+body > header {
+  background-color: #f4f5f6;
+  padding: 8rem 0;
+  margin-bottom: 4rem;
+}
+

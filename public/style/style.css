@@ -1,5 +1,6 @@
 :root {
-  --color2: #2272a2;
+  --color1: #666666;
+  --color2: #33aa88;
 }
 
 body > header {
@@ -31,4 +32,8 @@ header .button .icon {
   height: 1.6em;
   margin-right: 0.25rem;
   width: 1.6em;
+}
+
+a {
+  font-weight: 400;
 }

@@ -137,6 +137,15 @@ li {
   gap: 3rem;
 }
 
+.hero .row {
+  gap: 3rem;
+}
+
+.logo {
+  height: auto;
+  width: 14rem;
+}
+
 .hero-title {
   color: #666666;
   font-size: 4.5rem;

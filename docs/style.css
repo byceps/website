@@ -1,0 +1,155 @@
+:root {
+  --color1: #444444;
+  --color2: #33aa88;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #fcfcfc;
+  color: var(--color1);
+  font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-size: 1.6em;
+  font-weight: 300;
+  letter-spacing: .01em;
+  line-height: 1.5;
+  margin-bottom: 6rem;
+  text-rendering: optimizeLegibility;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 100rem;
+  padding: 0 2rem;
+}
+
+.row {
+  display: flex;
+  gap: 0 2rem;
+}
+
+.row--collapse {
+  flex-direction: column;
+}
+
+@media (min-width: 48rem) {
+  .row--collapse {
+    flex-direction: row;
+  }
+}
+
+a {
+  color: var(--color2);
+  font-weight: 400;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  color: var(--color1);
+}
+
+ol,
+ul {
+  margin: 0 0 0 1.5rem;
+  padding: 0;
+  text-indent: -1em;
+}
+
+ol {
+  list-style: decimal inside;
+}
+
+ul {
+  list-style: circle inside;
+}
+
+ol ol,
+ol ul,
+ul ol,
+ul ul {
+  font-size: 90%;
+  padding: 1.5rem 0 0.75rem 0;
+}
+
+li {
+  margin-bottom: 0.75rem;
+}
+
+.icon {
+  display: inline-block;
+  fill: currentColor;
+  height: 1em;
+  stroke: currentColor;
+  stroke-width: 0;
+  vertical-align: -14%;
+  width: 1em;
+}
+
+.button {
+  background-color: var(--color2);
+  border-radius: 0.25rem;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 1.375rem;
+  font-weight: 700;
+  height: 3.8rem;
+  letter-spacing: .1rem;
+  line-height: 4rem;
+  margin: 0;
+  padding: 0 2rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.button:focus,
+.button:hover {
+  background-color: #666666;
+  color: #ffffff;
+}
+
+.button .icon {
+  height: 1.6em;
+  margin-right: 0.5rem;
+  width: 1.6em;
+}
+
+.hero {
+  background-color: #f4f5f6;
+  margin-bottom: 6rem;
+  padding: 6rem 0;
+}
+
+.hero-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.hero-title {
+  color: #666666;
+  font-size: 4.5rem;
+  font-weight: 300;
+  margin: -1.5rem 0 -1.5rem -0.25rem;
+}
+
+.hero-body {
+  max-width: 68ch;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}

@@ -3,6 +3,7 @@
   --color-bg-light: #fcfcfc;
   --color1: #444444;
   --color2: #33aa88;
+  --color-dim: #999999;
   --padding-v: 6rem;
 }
 
@@ -192,6 +193,32 @@ h2 {
 
 .text-centered {
   text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+blockquote .quote {
+  color: var(--color2);
+  font-size: 2.5rem;
+}
+
+blockquote .quote::before,
+blockquote .quote::after {
+  color: var(--color-dim);
+}
+
+blockquote .quote::before {
+  content: '\201c';
+}
+
+blockquote .quote::after {
+  content: '\201d';
+}
+
+blockquote .quote-attribution {
+  color: var(--color-dim);
 }
 
 .contributors img {

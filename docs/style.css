@@ -33,7 +33,7 @@ body {
   padding: var(--padding-v) 0;
 }
 
-.section.dimmed {
+.section:nth-child(odd) {
   background-color: var(--color-bg-dim);
 }
 

@@ -25,7 +25,7 @@ body {
   font-weight: 300;
   letter-spacing: .01em;
   line-height: 1.5;
-  margin-bottom: var(--padding-v);
+  margin: 0;
   text-rendering: optimizeLegibility;
 }
 

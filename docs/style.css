@@ -184,3 +184,8 @@ h2 {
 .text-centered {
   text-align: center;
 }
+
+.contributors img {
+  display: block;
+  margin: 0 auto;
+}

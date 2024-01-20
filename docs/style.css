@@ -73,6 +73,10 @@ a:hover {
   color: var(--color1);
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 ol,
 ul {
   margin: 0 0 0 1.5rem;
@@ -132,6 +136,7 @@ li {
 .button:hover {
   background-color: #666666;
   color: #ffffff;
+  text-decoration: none;
 }
 
 .button .icon {

@@ -58,6 +58,10 @@ body {
   }
 }
 
+.row--space-evenly {
+  justify-content: space-evenly;
+}
+
 a {
   color: var(--color2);
   font-weight: 400;

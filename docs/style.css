@@ -46,7 +46,7 @@ body {
 
 .row {
   display: flex;
-  gap: 0 4rem;
+  gap: 2rem 4rem;
 }
 
 .row--collapse {

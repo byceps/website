@@ -1,10 +1,10 @@
 :root {
   --color-bg-dim: #f4f5f6;
   --color-bg-light: #fcfcfc;
-  --color1: #444444;
-  --color2: #33aa88;
+  --color-accent: #33aa88;
   --color-dim: #999999;
   --color-light: #cccccc;
+  --color-text: #444444;
   --padding-v: 6rem;
 }
 
@@ -21,7 +21,7 @@ html {
 
 body {
   background-color: var(--color-bg-light);
-  color: var(--color1);
+  color: var(--color-text);
   font-family: 'Roboto', 'Helvetica Neue', 'DejaVu Sans', 'Helvetica', 'Arial', sans-serif;
   font-size: 1.6em;
   font-weight: 300;
@@ -65,14 +65,14 @@ body {
 }
 
 a {
-  color: var(--color2);
+  color: var(--color-accent);
   font-weight: 400;
   text-decoration: none;
 }
 
 a:focus,
 a:hover {
-  color: var(--color1);
+  color: var(--color-text);
 }
 
 a:hover {
@@ -117,7 +117,7 @@ li {
 }
 
 .button {
-  background-color: var(--color2);
+  background-color: var(--color-accent);
   border-radius: 0.25rem;
   color: #ffffff;
   display: inline-block;
@@ -201,7 +201,7 @@ h2 {
 }
 
 blockquote .quote {
-  color: var(--color2);
+  color: var(--color-accent);
   font-size: 2.5rem;
 }
 
@@ -228,7 +228,7 @@ blockquote .quote-attribution {
 }
 
 .bignumber {
-  color: var(--color2);
+  color: var(--color-accent);
   font-size: 2.5rem;
   font-weight: 400;
 }
@@ -255,7 +255,7 @@ blockquote .quote-attribution {
 }
 
 .screenshots a:hover {
-  box-shadow: 0 0 2px 1px var(--color2);
+  box-shadow: 0 0 2px 1px var(--color-accent);
 }
 
 .screenshots img {

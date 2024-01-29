@@ -4,6 +4,7 @@
   --color1: #444444;
   --color2: #33aa88;
   --color-dim: #999999;
+  --color-light: #cccccc;
   --padding-v: 6rem;
 }
 
@@ -234,4 +235,32 @@ blockquote .quote-attribution {
 
 .bignumber-caption {
   color: var(--color-dim);
+}
+
+.screenshots {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.screenshots a {
+  display: block;
+  box-shadow: 0 0 2px 1px var(--color-light);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.screenshots a:hover {
+  box-shadow: 0 0 2px 1px var(--color2);
+}
+
+.screenshots img {
+  display: block;
+  height: 200px;
+  object-fit: cover;
+  width: 200px;
 }

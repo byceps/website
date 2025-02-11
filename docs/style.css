@@ -241,6 +241,10 @@ blockquote .quote-attribution {
   color: var(--color-dim);
 }
 
+.bignumber-extra {
+  margin-top: 1rem;
+}
+
 .screenshots {
   display: grid;
   gap: 2rem;

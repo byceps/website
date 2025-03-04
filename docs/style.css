@@ -237,12 +237,18 @@ blockquote .quote-attribution {
   font-weight: 400;
 }
 
-.bignumber-caption {
+.bignumber-caption,
+.bignumber-extra {
   color: var(--color-dim);
 }
 
 .bignumber-extra {
-  margin-top: 1rem;
+  font-size: 1.375rem;
+  margin-top: 0.75rem;
+}
+
+.bignumber-extra img {
+  margin-top: 0.25rem;
 }
 
 .screenshots {

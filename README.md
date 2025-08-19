@@ -1,6 +1,4 @@
-==============
-BYCEPS Website
-==============
+# BYCEPS Website
 
 The BYCEPS website.
 

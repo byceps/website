@@ -60,6 +60,10 @@ body {
   }
 }
 
+.row.row--gap3 {
+  gap: 3rem;
+}
+
 .row.row--space-evenly {
   justify-content: space-evenly;
 }
@@ -154,10 +158,6 @@ li {
 .hero-inner {
   display: flex;
   flex-direction: column;
-  gap: 3rem;
-}
-
-.hero .row {
   gap: 3rem;
 }
 

@@ -60,12 +60,20 @@ body {
   }
 }
 
+.row.row--compact {
+  gap: 1rem;
+}
+
 .row.row--gap3 {
   gap: 3rem;
 }
 
 .row.row--space-evenly {
   justify-content: space-evenly;
+}
+
+.row.row--wrap {
+  flex-wrap: wrap;
 }
 
 a {
@@ -175,12 +183,6 @@ li {
 
 .hero-body {
   max-width: 68ch;
-}
-
-.hero-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
 }
 
 h2 {

@@ -50,17 +50,17 @@ body {
   gap: 2rem 4rem;
 }
 
-.row--collapse {
+.row.row--collapse {
   flex-direction: column;
 }
 
 @media (min-width: 48rem) {
-  .row--collapse {
+  .row.row--collapse {
     flex-direction: row;
   }
 }
 
-.row--space-evenly {
+.row.row--space-evenly {
   justify-content: space-evenly;
 }
 

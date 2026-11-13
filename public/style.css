@@ -99,17 +99,16 @@ p {
 
 ol,
 ul {
-  margin: 0 0 0 1.5rem;
+  margin: 0 0 1.5rem 2.25rem;
   padding: 0;
-  text-indent: -1em;
 }
 
 ol {
-  list-style: decimal inside;
+  list-style: decimal;
 }
 
 ul {
-  list-style: circle inside;
+  list-style: circle;
 }
 
 ol ol,

@@ -312,6 +312,10 @@ table > tfoot > tr > :is(th, td) {
   margin-top: 0.25rem;
 }
 
+.health-image {
+  vertical-align: text-bottom;
+}
+
 .screenshots {
   display: grid;
   gap: 2rem;

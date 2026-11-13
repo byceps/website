@@ -2,6 +2,7 @@
   --color-bg-dim: #f4f5f6;
   --color-bg-light: #fcfcfc;
   --color-accent: #33aa88;
+  --color-darker: #555555;
   --color-dim: #999999;
   --color-light: #cccccc;
   --color-lighter: #dddddd;
@@ -108,7 +109,7 @@ ol {
 }
 
 ul {
-  list-style: circle;
+  list-style: disc;
 }
 
 ol ol,
@@ -121,6 +122,10 @@ ul ul {
 
 li {
   margin-bottom: 0.75rem;
+}
+
+li::marker {
+  color: var(--color-darker);
 }
 
 .icon {

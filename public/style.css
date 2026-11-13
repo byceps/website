@@ -313,7 +313,16 @@ table > tfoot > tr > :is(th, td) {
 }
 
 .health-image {
-  vertical-align: text-bottom;
+  vertical-align: -5px;
+}
+
+a.image-link img {
+  border: transparent solid 1px;
+  border-radius: 7px;
+}
+
+a.image-link:hover img {
+  border-color: var(--color-darker);
 }
 
 .screenshots {
